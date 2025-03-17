@@ -41,4 +41,7 @@ console.log(a)
 console.log(b)
 console.log(c)
 
-console.log(`the random bussiness name is ${obj1[a]} ${obj2[b]} ${obj3[c]}` )
+let div=document.createElement("div");
+div.innerHTML=`the random bussiness name is ${obj1[a]} ${obj2[b]} ${obj3[c]}`;
+div.setAttribute("class","created")
+document.body.append(div);
